@@ -12,8 +12,9 @@ body,
   padding: 0;
 }
 
+/* today is Nigerian independence day so I added the flag to the background */
 body {
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: white;
   background-image: url("https://media.gettyimages.com/videos/nigeria-flag-video-id675456232?s=640x640");
 }
@@ -24,19 +25,21 @@ body {
   padding-right: 20px;
 }
 
+/* changed the color to white to compliment the background */
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(204, 42%, 95%);
 }
 
+/* I wanted the "Generate Password" to match "Password Generator" */
 .card {
   background-color: green (0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(206, 100%, 99%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
